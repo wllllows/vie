@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.mybutton{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.popup {
+    position: fixed;
+    top: 55%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid gainsboro;
+    z-index: 9990;
+    width: 400px;
+  height: 650px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+.page{
+    position: fixed;
+    top: 56%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid gainsboro;
+    z-index: 9990;
+    width: 400px;
+    height: 580px;
+
+}
+.search{
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+}
+.qq-link{
+    border: 2px solid gainsboro;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+    margin-left: 0px;
+    font-size: 19px;
+    color: black;
+}
+.qq-link:hover{
+    color: red;
+    
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.left-nav-item,
+.right-nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: red;
+}
+.item{
+    color: black;
+    border: 2px solid gainsboro;
+    margin-top: 10px;
+    margin-bottom: -2px;
+    padding: 10px;
+    font-size: 19px;
+}
+.custom-modal-position {
+    background-color: white;
+    border: 2px solid gainsboro;
+    width: 400px;
+    height: 630px;
+    position: fixed;
+    top: 53.7%;
+    left: 87.01%;
+    transform: translate(-50%, -50%);
+    z-index: 9991;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+.title{
+    font-size: 25px;
+}
+.test{
+    font-size: 20px;
+}
+.button{
+    border:2px solid gainsboro;
+    width: 40px;
+    border-radius: 20%;
+    margin-bottom: 10px; 
+}
